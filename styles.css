@@ -1,0 +1,57 @@
+body{
+    color:rgb(180, 127, 127));
+    background-color: rgb(165, 163, 163);
+    margin: 0px;font-family: 'Parkinsans', sans-serif 
+}
+
+header{
+    border-bottom: solid 2px rgb(204, 15, 15);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(95, 4, 4);
+}
+
+section {
+    background: rgb(146, 129, 129)113);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 { 
+    font-size: 40px;
+}
+
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img {
+    opacity 0.5 ;
+    height: 200px
+}
+
+.categoria-videos img:hover {
+    opacity 1.0;
+}
+
+.categoria h2 {
+    color: rgb(13, 13, 14);
+}
